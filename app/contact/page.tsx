@@ -78,6 +78,7 @@ export default function ContactPage() {
               </p>
               <div className="section-tags-list">
                 <span className="country-badge">🇮🇳 India</span>
+                <span className="country-badge">🇸🇬 Singapore</span>
                 <span className="country-badge">🇺🇸 USA</span>
                 <span className="country-badge">🇬🇧 UK</span>
                 <span className="country-badge">🇨🇦 Canada</span>

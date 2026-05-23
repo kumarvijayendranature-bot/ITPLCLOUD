@@ -14,15 +14,15 @@ const whyCards = [
   { num: "02", icon: "🛡️", title: "Hardened Security",          desc: "Always-on DDoS mitigation, daily malware scans, and a managed WAF that covers the OWASP Top 10 by default." },
   { num: "03", icon: "📊", title: "Modern Control Panel",       desc: "cPanel and Plesk for hosting, a unified dashboard for domains, email, SSL, and billing — no juggling logins." },
   { num: "04", icon: "🎯", title: "24/7 Engineers, Not Tier-1", desc: "Tickets are answered by people who can actually fix things — average first response under 15 minutes." },
-  { num: "05", icon: "🌐", title: "India + USA Data Centers",   desc: "Pick the region closest to your users. Low-latency routes to APAC, the Middle East, and North America." },
+  { num: "05", icon: "🌐", title: "Servers Across The Globe",   desc: "Pick the region closest to your users. Low-latency routes to APAC, the Middle East, and North America." },
   { num: "06", icon: "💾", title: "Automated Daily Backups",    desc: "Off-host nightly snapshots with one-click restore — included on every paid plan, never an add-on." },
   { num: "07", icon: "📈", title: "Scale Without a Migration",  desc: "Move from shared → VPS → dedicated → cloud without changing providers, panels, or DNS records." },
   { num: "08", icon: "💰", title: "Honest, INR-First Pricing",  desc: "Predictable monthly billing in rupees. No bandwidth-bill surprises, no aggressive auto-renewals." },
 ];
 
 const previewServices = [
-  { slug: "hosting",   icon: "🖥️", title: "Linux Shared Hosting", desc: "cPanel, NVMe SSD, free SSL — ready in under 5 minutes.",            priceFrom: "₹192" },
-  { slug: "vps",       icon: "🖧",  title: "VPS Hosting",          desc: "Full-root Linux or Windows VPS with guaranteed CPU, RAM, and SSD.",  priceFrom: "₹799" },
+  { slug: "hosting",   icon: "🖥️", title: "Linux Shared Hosting", desc: "cPanel, NVMe SSD, free SSL — ready in under 5 minutes.",            priceFrom: "₹99" },
+  { slug: "vps",       icon: "🖧",  title: "VPS Hosting",          desc: "Full-root Linux or Windows VPS with guaranteed CPU, RAM, and SSD.",  priceFrom: "₹399" },
   { slug: "cloud",     icon: "☁️", title: "Custom Cloud",         desc: "Auto-scaling instances with private networking and block storage.",  priceFrom: "Custom" },
   { slug: "dedicated", icon: "⚡", title: "Dedicated Servers",     desc: "Bare-metal Linux or Windows hardware with IPMI and 10 Gbps uplinks.", priceFrom: "₹6,999" },
   { slug: "domain",    icon: "🌐", title: "Domain Registration",  desc: "100+ TLDs, free DNS management, WHOIS privacy and auto-renewal.",    priceFrom: "₹699" },
