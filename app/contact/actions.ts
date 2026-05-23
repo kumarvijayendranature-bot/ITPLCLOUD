@@ -246,7 +246,7 @@ export async function submitContact(
     return {
       status: "error",
       message:
-        "Sorry, we couldn't send your message right now. Please try again or email info@inclusionetechnologies.com directly.",
+        "Sorry, we couldn't send your message right now. Please try again or email vijay.itplcloud@gmail.com directly.",
     };
   }
 }
