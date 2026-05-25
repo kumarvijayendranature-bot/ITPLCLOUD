@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import circuitImg from "@/assets/images/itpl_cloud_dp_circuit.svg";
 
 export const metadata: Metadata = {
   title: "About | ITPL Cloud",
@@ -25,19 +27,12 @@ export default function AboutPage() {
           <div className="about-grid">
             <div className="about-visual">
               <div className="about-img-box">
-                <span className="big-icon">🏢</span>
-                <h3
-                  style={{
-                    fontFamily: "var(--font-head)",
-                    fontSize: "1.4rem",
-                    marginBottom: 8,
-                  }}
-                >
-                  ITPL Cloud
-                </h3>
-                <p style={{ color: "var(--gray)", fontSize: "0.9rem" }}>
-                  Strive To Success
-                </p>
+                <Image
+                  src={circuitImg}
+                  alt="ITPL Cloud circuit infrastructure illustration"
+                  className="about-img-illustration"
+                  priority
+                />
                 <div className="country-stack">
                   <div className="box">
                     <p>India</p>

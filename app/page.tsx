@@ -24,6 +24,8 @@ const previewServices = [
   { slug: "hosting",   icon: "🖥️", title: "Linux Shared Hosting", desc: "cPanel, NVMe SSD, free SSL — ready in under 5 minutes.",            priceFrom: "₹99" },
   { slug: "vps",       icon: "🖧",  title: "VPS Hosting",          desc: "Full-root Linux or Windows VPS with guaranteed CPU, RAM, and SSD.",  priceFrom: "₹399" },
   { slug: "cloud",     icon: "☁️", title: "Custom Cloud",         desc: "Auto-scaling instances with private networking and block storage.",  priceFrom: "Custom" },
+  { slug: "aws",       icon: "🟧", title: "AWS Managed Cloud",    desc: "Architecture, migration and 24/7 ops for workloads on AWS.",         priceFrom: "Custom" },
+  { slug: "azure",     icon: "🟦", title: "Microsoft Azure",      desc: "Microsoft Partner-led Azure migration and managed operations.",      priceFrom: "Custom" },
   { slug: "dedicated", icon: "⚡", title: "Dedicated Servers",     desc: "Bare-metal Linux or Windows hardware with IPMI and 10 Gbps uplinks.", priceFrom: "₹6,999" },
   { slug: "domain",    icon: "🌐", title: "Domain Registration",  desc: "100+ TLDs, free DNS management, WHOIS privacy and auto-renewal.",    priceFrom: "₹699" },
   { slug: "whatsapp",  icon: "📱", title: "WhatsApp Business API", desc: "Official Meta-approved API for OTPs, alerts, and conversational AI.", priceFrom: "Custom" },

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/assets/images/ITPL-logo.png";
+import msmeLogo from "@/assets/images/msme_logo.webp";
 
 export default function Footer() {
   return (
@@ -80,7 +81,46 @@ export default function Footer() {
             <li><Link href="/contact">Contact Us</Link></li>
           </ul>
         </div>
+
+        <div className="footer-col footer-col-contact">
+          <div className="footer-msme">
+            <span className="recognition-label">Recognised by</span>
+            <Image
+              src={msmeLogo}
+              alt="MSME — Government of India Registered Enterprise"
+              className="msme-logo-img"
+            />
+          </div>
+
+          <div className="footer-contact-list">
+            <div className="footer-contact-row">
+              <span className="fc-icon" aria-hidden="true">📞</span>
+              <p>
+                <a href="tel:+919821062169">+91 9821062169</a>
+                <br />
+                <a href="tel:+17245777780">+1 724 577 7780</a>
+              </p>
+            </div>
+            <div className="footer-contact-row">
+              <span className="fc-icon" aria-hidden="true">📧</span>
+              <p>
+                <a href="mailto:vijay.itplcloud@gmail.com">
+                  vijay.itplcloud@gmail.com
+                </a>
+              </p>
+            </div>
+            <div className="footer-contact-row">
+              <span className="fc-icon" aria-hidden="true">📍</span>
+              <p>
+                G-75, Sector 63, Noida U.P. 201301
+                <br />
+                2642 E Spring St, Long Beach CA 90620
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+
       <div className="footer-bottom">
         <p>
           © {new Date().getFullYear()} ITPL Cloud — Powered by Inclusione
