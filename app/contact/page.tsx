@@ -45,7 +45,7 @@ export default function ContactPage() {
                   <p>
                     India: +91 9821062169
                     <br />
-                    USA: +1 724 577 7780
+                    USA: +91 7480056425
                   </p>
                 </div>
               </div>

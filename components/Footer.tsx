@@ -98,7 +98,7 @@ export default function Footer() {
               <p>
                 <a href="tel:+919821062169">+91 9821062169</a>
                 <br />
-                <a href="tel:+17245777780">+1 724 577 7780</a>
+                <a href="tel:+917480056425">+91 7480056425</a>
               </p>
             </div>
             <div className="footer-contact-row">
