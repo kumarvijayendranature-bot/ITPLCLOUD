@@ -104,8 +104,8 @@ export default function Footer() {
             <div className="footer-contact-row">
               <span className="fc-icon" aria-hidden="true">📧</span>
               <p>
-                <a href="mailto:vijay.itplcloud@gmail.com">
-                  vijay.itplcloud@gmail.com
+                <a href="mailto:Info@inclusionetechnologies.com">
+                  Info@inclusionetechnologies.com
                 </a>
               </p>
             </div>

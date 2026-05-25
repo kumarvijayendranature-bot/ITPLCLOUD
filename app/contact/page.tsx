@@ -53,7 +53,7 @@ export default function ContactPage() {
                 <div className="ci-icon">📧</div>
                 <div>
                   <h4>Email</h4>
-                  <p>vijay.itplcloud@gmail.com</p>
+                  <p>Info@inclusionetechnologies.com</p>
                 </div>
               </div>
               <div className="contact-item">
