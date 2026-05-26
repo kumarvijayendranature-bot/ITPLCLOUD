@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Ticker from "@/components/Ticker";
+import TawkChat from "@/components/TawkChat";
 
 export const metadata: Metadata = {
   title: "ITPL Cloud – Strive To Success",
@@ -34,6 +35,7 @@ export default function RootLayout({
         <Ticker />
         {children}
         <Footer />
+        <TawkChat />
       </body>
     </html>
   );
