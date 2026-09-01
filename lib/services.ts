@@ -42,7 +42,7 @@ export const SERVICE_CATEGORIES = [
   { id: "messaging", label: "📱 Messaging & Productivity" },
 ] as const;
 
-const BILLING_BASE = "https://billing.inclusionetechnologies.com/index.php?rp=/store";
+const BILLING_BASE = "https://bill.inclusionetechnologies.com/index.php?rp=/store";
 
 export const services: Service[] = [
   // ===== LIVE / ORDER NOW (links out to billing portal) =====
